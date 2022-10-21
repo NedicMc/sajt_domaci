@@ -1,0 +1,73 @@
+ul li a{
+  text-decoration: none;
+  float: right;
+  color: black;
+  padding: 5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0px;
+}
+
+.header-div {
+  background-color:  rgb(87, 86, 86);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.header-div  a:hover {
+  color:silver;
+}
+
+.text {
+  margin: auto;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+menu,
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 400px;
+}
+
+li {
+  flex-grow: 1;
+}
+
+.column {
+  float: left;
+  width: 22%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+hr{
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.onama{
+  background-color: rgb(197, 193, 193);
+}

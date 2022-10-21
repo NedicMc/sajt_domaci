@@ -1,0 +1,56 @@
+ul li a{
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 5px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0 0 0px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400px;
+  }
+
+  li {
+    flex-grow: 1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .header-div {
+    background-color:  rgb(87, 86, 86);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+
+  .header-div  a:hover {
+    color:silver;
+  }
+
+  .field {
+    border: solid rgb(72, 71, 71);
+    background-color: seashell;
+  }
+
+  .fields {
+    background-color: gray;
+  }
+
+  .fieldf {
+    background-color: #f1f1f1;
+  }
+
+  body{
+    background-color: #f1f1f1;
+  }
+  
+ 
+ 
+
+  
